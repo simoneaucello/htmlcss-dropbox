@@ -27,6 +27,13 @@ h1{
   font-size:4.6rem
 }
 
+h2{
+  font-size:2.4rem;
+  font-weight: 700;
+  padding-bottom: 40px;
+
+}
+
 .debug{
   background-color: rgb(175, 122, 224);
   border: 1px solid black;
@@ -43,9 +50,17 @@ h1{
 }
 
 .container-xs{
-  max-width: 950px;
+  max-width: 1000px;
   width: 99%;
   margin: 0 auto;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
 }
 
 img{
@@ -81,6 +96,11 @@ a{
   display: inline-block;
   padding: 5px 10px;
   color: black;
+}
+
+.top-bar ul li a:hover{
+  border-bottom: 3px solid black;
+  
 }
 
 
@@ -132,7 +152,7 @@ a{
 }
 
 .heroz{
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
 }
 
@@ -146,7 +166,7 @@ a{
 }
 
 .fa-arrow-down{
-  font-size: 2.5rem
+  font-size: 2.5rem;
 }
 
 
@@ -158,5 +178,35 @@ main{
   margin-top: 90px;
 }
 
+.radio-btn{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.plans{
+  flex-direction: row;
+  padding-top: 50px;
+  
+  
+}
+
+.card{
+  flex-wrap: wrap;
+  height:900px;
+  border: 1px solid #cfcfd1;
+  width: 300px;
+}
+
+.professional{  
+}
 
 
+.single{
+  border-bottom:1px solid #cfcfd1;
+  height: 40px;
+  text-align: center;
+}
+
+.single-top{
+ 
+}
