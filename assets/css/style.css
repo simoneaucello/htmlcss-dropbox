@@ -31,7 +31,11 @@ h2{
   font-size:2.4rem;
   font-weight: 700;
   padding-bottom: 40px;
+}
 
+h3{
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 
 .debug{
@@ -93,7 +97,7 @@ header{
   background-color: white;
 }
 
-a{
+header a{
   text-align: center;
   justify-content: space-between;
   text-decoration: none;
@@ -128,7 +132,14 @@ a{
 
 }
 
-a{
+.hero-text p{
+  padding-bottom: 20px;
+}
+
+.heroz .hero-text a{
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
   width: 100%;
   justify-content: space-between;
 }
@@ -139,12 +150,14 @@ a{
 
 .inizia{
   color: white;
+  text-decoration: none;
 
 }
 
 .free{
+  text-align: center;
   margin-top: 20px;
-  width:230px;
+  width:80%;
   padding: 10px;
 }
 
@@ -166,7 +179,7 @@ a{
 }
 
 .hero-img{
-  width:99%;
+  min-width:50%;
   max-width:790px;
   position: absolute;
   right: 0;
@@ -198,17 +211,19 @@ main{
   padding-bottom: 30px;
   
   
+  
 }
 
 .card{
   /* flex-wrap: wrap; */
-  height:900px;
+  height:1000px;
   border: 1px solid #cfcfd1;
-  width: 300px;
+  width: 30%;
   
 }
 
 .professional{  
+  
 }
 
 
@@ -230,18 +245,39 @@ main{
 }
 
 .contain-xxs{
+  flex-direction: column;
   padding-top: 20px;
-  max-width: 150px;
-  margin: 0 30px;
-
+  max-width: 85%;
+  margin: 0 20px;
+  width: 99%;
 }
 
+.contain-xxs ul li{
+  font-size: .9rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+  padding-left: 2px;
+}
 
 .top-list{
-  
-  
-  
+  padding-left: 8px;  
 }
+
+.bot-list{
+  padding-top: 25px; 
+  padding-bottom: 40px; 
+}
+
+hr{
+  max-width: 20%;
+  border-top:1px solid #cfcfd1;
+}
+
+.fa-check{
+  color:blue;
+  font-size: 1.2rem;
+}
+
 
 .horizon{
   height: 250px;
