@@ -73,6 +73,9 @@ img{
   padding-top: 20px;
 }
 
+.padding-bottom{
+  padding-bottom: 30px;
+}
 
 
 
@@ -150,7 +153,7 @@ a{
 .jumbotron{
 
   background-color: #b8cee4 ;
-  
+  padding-bottom: 27px;
 }
 
 .heroz{
@@ -163,15 +166,16 @@ a{
 }
 
 .hero-img{
-  width:790px;
+  width:99%;
+  max-width:790px;
   position: absolute;
   right: 0;
   top: 20;
+
 }
 
 .fa-arrow-down{
   font-size: 2.5rem;
-  padding-bottom: 20px;
 }
 
 
@@ -189,17 +193,19 @@ main{
 }
 
 .plans{
-  flex-direction: row;
+  /* flex-direction: row; */
   padding-top: 50px;
+  padding-bottom: 30px;
   
   
 }
 
 .card{
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   height:900px;
   border: 1px solid #cfcfd1;
   width: 300px;
+  
 }
 
 .professional{  
@@ -208,14 +214,64 @@ main{
 
 .single{
   border-bottom:1px solid #cfcfd1;
-  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fa-solid{
+  padding: 5px;
+}
+
+.title-top{ 
+}
+
+.lined{
+  line-height: 40px;
+}
+
+.contain-xxs{
+  padding-top: 20px;
+  max-width: 150px;
+  margin: 0 30px;
+
+}
+
+
+.top-list{
+  
+  
+  
+}
+
+.horizon{
+  height: 250px;
+  width:100%;
+  border: 1px solid #cfcfd1;
+}
+
+.team{
+  border-bottom:1px solid #cfcfd1;
   text-align: center;
 }
 
-.single-top{
- 
+.partner-box{
+  padding-top: 130px;
 }
 
-.hor-card{
-  height: 300px;
+.partner-img{
+  width: 600px;
+  height: 500px;
+}
+
+.partner-text{
+  padding-left: 10px;
+  padding-top: 50px;
+  max-width: 350px;
+  
+}
+
+.button-partner{
+  width:170px; 
+  padding:11px;
+  border: 1px solid black;
 }
