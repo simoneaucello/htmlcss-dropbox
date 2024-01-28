@@ -14,6 +14,7 @@ ul{
 }
 p{
   line-height: 30px;
+  font-weight:550;
 }
 
 li{
@@ -82,10 +83,6 @@ img{
 }
 
 
-
-
-
-
 /* HEADER  */
 
 header{
@@ -112,8 +109,7 @@ header a{
 }
 
 .top-bar ul li a:hover{
-  border-bottom: 3px solid black;
-  
+  border-bottom: 3px solid black; 
 }
 
 
@@ -128,7 +124,6 @@ header a{
   align-items: center;
   width: 600px;
   padding-left:15px;
-
 }
 
 .right-nav ul{
@@ -136,7 +131,6 @@ header a{
   align-items: center;
   justify-content: space-between;
   padding-right:15px;
-
 }
 
 .hero-text p{
@@ -158,7 +152,6 @@ header a{
 .inizia{
   color: white;
   text-decoration: none;
-
 }
 
 .free{
@@ -171,15 +164,27 @@ header a{
 /* jumbotron  */
 
 .jumbotron{
-
   background-color: #b8cee4 ;
-  padding-bottom: 27px;
+  padding-bottom: 10px;
+}
+
+.hero-text p{
+  line-height: 23px;
+  padding-bottom: 45px;
+}
+
+.hero-text p:first-child{  
+  padding-bottom: 40px;
+}
+
+.cancel{  
+  padding-top: 39px;
 }
 
 
 .hero-text{
+  padding-bottom: 10px;
   width:350px; 
-
 }
 
 .hero-img{
@@ -188,7 +193,6 @@ header a{
   position: absolute;
   right: 0;
   top: 20;
-
 }
 
 .fa-arrow-down{
@@ -224,8 +228,8 @@ main{
 .monthly{
   color: #6c6c6c;
   font-weight: 600;
-
 }
+
 
 
 .single{
@@ -235,10 +239,12 @@ main{
 }
 
 .fa-solid{
-  padding: 5px;
+  padding-right: 8px;
+  padding-top: 3px
 }
 
 .title-top{ 
+  font-weight: 500;
 }
 
 .lined{
@@ -297,9 +303,10 @@ hr{
   max-width: 20%;
 }
 
+
 .dx-button a{
-  padding: 15px  40px;
-  margin-top: 50px; 
+  padding: 10px  40px;
+
   
 }
 
@@ -525,18 +532,19 @@ hr{
 
 .divide{
   border-top: 1px solid #ccccce ;
-  padding-top: 30px;
-  margin-top: 30px;
+  padding-top: 50px;
+  margin-top: 50px;
   width:80px;
   margin-left: 40px;
 }
 
 .design-text{
+  padding-top: 20px;
   padding-left: 40px;
-  padding-bottom: 30px;
-  padding-right: 25px;
-  line-height: 15px;
-  font-size: .7rem;
+  padding-bottom: 40px;
+  padding-right: 30px;
+  line-height: 25px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -561,10 +569,17 @@ hr{
 
 
 .button-trial{
-  padding: 150px 70px
+  padding: 150px 70px;
+}
+
+.button-free{
+  padding-top: 17px
 }
 
 .button-trial a{
+  font-weight: 600;
+  font-size: .9rem;
+  border: 1px solid black;
   text-decoration: none;
   color: black;
   background-color: #ffffff;
@@ -588,6 +603,11 @@ hr{
 .questions:last-child{
   border-bottom: 2px solid #979797;  
   margin-bottom: 130px;; 
+}
+
+.questions a{
+  text-decoration: none;
+  color: black;
 }
 
 /* faq  */
