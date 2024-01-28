@@ -273,12 +273,15 @@ main{
 .bot-list{
   padding-top: 25px; 
   padding-bottom: 40px; 
+  margin-top: 30px ;
 }
 
 hr{
   max-width: 20%;
   border-top:1px solid #cfcfd1;
 }
+
+
 
 .fa-check{
   color:blue;
@@ -295,6 +298,9 @@ hr{
   padding-top: 40px;
   max-width: 90%;
   padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 22px;
 }
 
 
@@ -305,9 +311,7 @@ hr{
 
 
 .dx-button a{
-  padding: 10px  40px;
-
-  
+  padding: 10px  40px;  
 }
 
 .sx-block{
@@ -325,6 +329,7 @@ hr{
 .team{
   border-bottom:1px solid #cfcfd1;
   text-align: center;
+  padding: 10px;
 }
 
 .partner-box{
@@ -594,21 +599,47 @@ hr{
   margin-bottom: 50px;
 }
 
-.questions{
+.difference,.question,.dropbox{
   padding: 50px;
   border-top: 2px solid #979797;
   justify-content: space-between;
+  height: 10%;
 }
 
-.questions:last-child{
+.dropbox ~ .third-description{
   border-bottom: 2px solid #979797;  
-  margin-bottom: 130px;; 
+  margin-bottom: 130px;
 }
 
-.questions a{
-  text-decoration: none;
-  color: black;
+
+.description,.second-description,.third-description{
+  padding-left: 50px;
+  padding-right: 120px;
+  padding-bottom: 30px;
+  display: none;
 }
+
+.difference:hover ~ .description{
+  display:block;  
+}
+
+.question:hover ~ .second-description{
+  display:block;  
+}
+
+.dropbox:hover ~ .third-description{
+  display:block;  
+}
+
+.cont-last{
+  margin-bottom:200px;
+  border-top: 2px solid #979797;
+}
+
+.dropbox:hover ~ .cont-last{
+  display: none;
+}
+
 
 /* faq  */
 
@@ -644,6 +675,8 @@ nav ul a{
 .bot-title{
   color: white;
   margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 1.4rem;
 }
 
 .foot-margin{
@@ -655,6 +688,8 @@ nav ul a{
   padding-bottom: 50px;
   border-top: 2px solid white;
   max-width: 130px;
+  padding-top: 30px
+
   
 }
 
@@ -665,9 +700,10 @@ nav ul a{
 
 .ita{
   display: inline-block;
+  font-size: 1.1rem;
   color: white;
 }
 
-.fa-chevron-up{
+.fa-caret-up{
   vertical-align: middle;
 }
