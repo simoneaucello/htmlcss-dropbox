@@ -102,7 +102,7 @@ header a{
   display: inline-block;
   padding: 28px 10px;
   color: black;
-  transition: all .4s ease;
+  transition: all .3s;
 }
 
 #start-here{
@@ -149,7 +149,7 @@ header a{
 
 .buttons{
   background-color: #2c60f5;
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .buttons:hover{
@@ -565,11 +565,9 @@ hr{
   justify-content: space-between;
   background-color: #b8cee4;
   width: 100%;
- 
 }
 
-.trial{
-  
+.trial{ 
   padding: 130px;
   padding-left: 0px;
   font-size: 2.2rem;
@@ -609,12 +607,12 @@ hr{
   padding: 50px;
   border-top: 2px solid #979797;
   justify-content: space-between;
-  height: 10%;
+  height: 50px
+
 }
 
 .dropbox ~ .third-description{
   border-bottom: 2px solid #979797;  
-  margin-bottom: 130px;
 }
 
 
@@ -622,29 +620,33 @@ hr{
   padding-left: 50px;
   padding-right: 120px;
   padding-bottom: 30px;
-  display: none;
-  transition: all 1s;
+  transition: opacity .1s, height .2s;
+  height: 0px;
+  opacity: 0;
 }
 
 .difference:hover ~ .description{
-  display:block;  
+  height: 120px;
+  opacity: 1;
 }
 
 .question:hover ~ .second-description{
-  display:block;  
+  height: 120px;
+  opacity: 1;
 }
 
 .dropbox:hover ~ .third-description{
-  display:block;  
+  height: 120px;
+  opacity: 1;
 }
 
+
 .cont-last{
-  margin-bottom:200px;
   border-top: 2px solid #979797;
 }
 
 .dropbox:hover ~ .cont-last{
-  display: none;
+  opacity: 0;
 }
 
 
@@ -654,6 +656,7 @@ hr{
 
 footer{  
   background-color: #000000;
+  margin-top: 150px;
 }
 
 nav ul{
