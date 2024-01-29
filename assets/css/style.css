@@ -195,7 +195,6 @@ header a{
   max-width:790px;
   position: absolute;
   right: 0;
-  top: 20;
 }
 
 .fa-arrow-down{
@@ -380,14 +379,10 @@ hr{
   max-width: 300px;
 }
 
-.col-card-text h3{
-  font-size: 1.rem;
-
-}
 
 .col-card-text p{
   padding-top: 25px;
-  line-height:22px;;
+  line-height:22px;
 }
 
 .clients{
