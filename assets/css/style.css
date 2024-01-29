@@ -92,6 +92,7 @@ header{
   z-index:999;
   top:0;
   background-color: white;
+  box-shadow: 0 1px 3px rgba(128, 128, 128, 0.800);
 }
 
 header a{
@@ -99,8 +100,9 @@ header a{
   justify-content: space-between;
   text-decoration: none;
   display: inline-block;
-  padding: 27px 10px;
+  padding: 28px 10px;
   color: black;
+  transition: all .4s ease;
 }
 
 #start-here{
@@ -147,6 +149,11 @@ header a{
 
 .buttons{
   background-color: #2c60f5;
+  transition: all 1s;
+}
+
+.buttons:hover{
+  background-color: rgba(57, 95, 236, .8);
 }
 
 .inizia{
@@ -204,7 +211,6 @@ header a{
 /* MAIN  */
 
 main{
-  overflow: hidden;
   margin-top: 90px;
 }
 
@@ -412,7 +418,7 @@ hr{
 
 .macro{
   margin-top: 130px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -424,13 +430,13 @@ hr{
   display: flex;
   flex-flow: row wrap;
   aspect-ratio: 1 / 1;
-  max-width: calc(100% / 3);
+  max-width: calc(100vw / 3);
 }
 
 .big-square-center{
   display: flex;
   flex-flow: row wrap ;
-  width: calc(100% / 3);
+  width: calc(100vw / 3);
   overflow: auto;
   aspect-ratio: 1 / 1;
 
@@ -483,7 +489,7 @@ hr{
   display: flex;
   flex-flow: row wrap;
   aspect-ratio: 1 / 1;
-  max-width: calc(100vw/ 3);
+  max-width: calc(100vw / 3);
 }
 
 
@@ -558,7 +564,7 @@ hr{
   display: flex;
   justify-content: space-between;
   background-color: #b8cee4;
-  width: 100vw;
+  width: 100%;
  
 }
 
@@ -617,6 +623,7 @@ hr{
   padding-right: 120px;
   padding-bottom: 30px;
   display: none;
+  transition: all 1s;
 }
 
 .difference:hover ~ .description{
